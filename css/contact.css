@@ -22,16 +22,6 @@ body {
     letter-spacing: 6px;
 }
 
-.sentSuccess {
-    text-align: center;
-    margin: 0 auto;
-    padding: 40px 0;
-    font: 300 30px 'Oswald', sans-serif;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    display: none;
-}
 
 .contact-wrapper {
     display: flex;

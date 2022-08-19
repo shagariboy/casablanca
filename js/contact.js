@@ -1,3 +1,5 @@
+const { format } = require("express/lib/response");
+
 document.querySelector('#contact-form').addEventListener('submit', (e) => {
     e.preventDefault();
     e.target.elements.name.value = '';
@@ -9,6 +11,7 @@ document.querySelector('#contact-form').addEventListener('submit', (e) => {
 
 function onLoad(params) {
 
+    
     var tempParams = {
         from_name: document.getElementById("name").value,
         email_id: document.getElementById("email").value,
@@ -18,21 +21,10 @@ function onLoad(params) {
 
 
     emailjs.send("service_5rg4jzd", "template_d3n7vmw", tempParams)
-        .then(function (res) {
-            console.log("ok", res.status);
+        .then(function sendSuccess() {
+            alert("Sent Successfully!");
         })
 }
 
 
 
-function sendSuc() {
-    
-    var displaySuc = sendSuc.style.display;
-    var mySuc = document.getElementById('sentSuc');
-
-    if (displaySuc == 'none') {
-        sendSuc.style.display = 'block';
-
-        mySuc.innerHTML = '';
-    }
-}
