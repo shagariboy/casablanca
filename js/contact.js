@@ -24,6 +24,15 @@ function onLoad(params) {
 }
 
 
-function sendSuccess() {
-    alert("Sent successfully!");
+
+function sendSuc() {
+    
+    var displaySuc = sendSuc.style.display;
+    var mySuc = document.getElementById('sentSuc');
+
+    if (displaySuc == 'none') {
+        sendSuc.style.display = 'block';
+
+        mySuc.innerHTML = '';
+    }
 }
