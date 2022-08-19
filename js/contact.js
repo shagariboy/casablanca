@@ -21,8 +21,8 @@ function onLoad(params) {
 
 
     emailjs.send("service_5rg4jzd", "template_d3n7vmw", tempParams)
-        .then(function sendSuccess() {
-            alert("Sent Successfully!");
+        .then(function(res) {
+            console.log("ok", res.status);
         })
 }
 
