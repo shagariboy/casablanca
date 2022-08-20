@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 
-
+* {
+    box-sizing: border-box;
+}
 
 body {
     margin: 0;
@@ -10,7 +12,6 @@ body {
 
 nav,
 .navbar {
-    
     width: 100%;
     float: left;
     padding: 20px;
@@ -26,7 +27,7 @@ nav,
 
 .navbar .nav-container {
     width: 100%;
-    max-width: 1170px;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
@@ -36,7 +37,8 @@ nav,
 }
 
 .navbar .logo {
-    width: 50px;
+    width: 100%;
+    max-width: 140px;
 }
 
 .navbar .logo a {
@@ -44,12 +46,10 @@ nav,
     text-decoration: none;
     color: #fff;
     font-size: 19px;
-    transition: 0.5s ease;
 }
 
 .navbar .logo img {
     max-width: 100%;
-    border-radius: 5px;
 }
 
 
@@ -61,7 +61,7 @@ nav,
 .navbar .nav-links .nav-item {
     position: relative;
     list-style: none;
-    float: left
+    float: left;
 }
 
 .navbar .nav-links .nav-item .nav-link {
@@ -94,7 +94,7 @@ nav,
 .navbar #menu-toggle {
     position: absolute;
     visibility: hidden;
-    z-index: -1
+    z-index: -1;
 }
 
 @media (min-width: 768px) {
@@ -252,21 +252,23 @@ nav,
     width: 80%;
     margin: 0px auto;
     margin-top: 100px;
-    max-width: 600px;
+    max-width: 500px;
     position: relative;
     overflow: hidden;
-    border: 10px solid white;
+    border: 10px solid transparent;
     border-radius: 5px;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
-    ;
+
+    
 }
 
 .slide {
     width: 100%;
-
+    position: relative;
     display: none;
     animation-name: fade;
     animation-duration: 1s;
+    z-index: -2;
 
 }
 
