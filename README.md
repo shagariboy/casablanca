@@ -1,8 +1,8 @@
 # casablanca
 
 ## About
-<p>This a responsive website for a startup company </p><br>
-<p>It contains four subpages</p>
+<p>This a responsive website for a startup company </p>
+<p>It contains four subpages </p>
 
 ## How I worked on this project
 
@@ -23,4 +23,5 @@
 - VsCode
 - GitHub Desktop
 - Netlify
+- Fecth API
 
