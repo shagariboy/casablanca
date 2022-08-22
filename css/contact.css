@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #000;
+    background-color: gray;
     padding-bottom: 100px;
 }
 
@@ -268,4 +268,36 @@ hr {
     .send-button {
         width: 99%;
     }
+}
+
+.logo_index {
+    display: block;
+    float: right;
+    right: 80%;
+    position: fixed;
+    z-index: 19999;
+    font: inherit;
+}
+
+.logo_index_text {
+    position: relative;
+    float: right;
+    
+}
+
+.logo_index_text a {
+    letter-spacing: -0.04em;
+    font-size: 82px;
+    line-height: 76px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #232121;
+    text-decoration: none;
+} 
+
+img {
+    color: #fff;
+    size: 82px;
+    display: block;
+    z-index: 19999;
 }

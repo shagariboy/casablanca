@@ -3,26 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>StartUp </title>
+    <title>StartUp News </title>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
     <link rel="stylesheet" href="./css/news.css">
-
 </head>
 
 <body>
-    <header>
+    
         <!-- partial:index.partial.html -->
         <nav class="navbar">
             <div class="nav-container">
                 <div class="nav-header">
-                    <div class="logo">
-                        <!-- Logo -->
-                        <a>StartUp</a>
-
-                    </div>
+            
                 </div>
 
                 <input type="checkbox" id="menu-toggle">
@@ -31,11 +24,11 @@
                 <div class="nav">
                     <ul class="nav-links">
                         <li class="nav-item"><a href="/index.html" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Staff</a></li>
+                        <li class="nav-item"><a href="/staff.html" class="nav-link">Staff</a></li>
                         <li class="nav-item has-dropdown">
-                            <a href="#" class="nav-link">News</a>
+                            <a href="/news.html" class="nav-link">News</a>
                             <ul class="dropdown-menu">
-                                <li class="nav-item"><a class="nav-link" href="#">Latest News</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/news.html">Latest News</a></li>
                                 <li class="nav-item"><a class="nav-link" href="#">Archive</a></li>
                             </ul>
                         </li>
@@ -45,18 +38,60 @@
                 </div>
             </div>
         </nav>
-    </header>
+        <div class="logo_index">
+            <div class="logo_index_text">
+                <a href="/index.html"><img src="/public/image/icons8-yolo-90.png"/></a>
+            </div>
+        </div>
+
     <div class="up-container"></div>
-
-    <main>
-        <ol class="gradient-list">
-            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li>Aenean tincidunt elit at ipsum cursus, vitae interdum nulla suscipit.</li>
-            <li>Curabitur in orci vel risus facilisis accumsan.</li>
-            <li>Morbi eleifend tortor lacinia sapien sagittis, quis pellentesque felis egestas.</li>
-        </ol>
-    </main>
-
+    <div class="row">
+        <div class="example-2 card">
+            <div class="wrapper">
+                <div class="header">
+                    <div class="date">
+                        <span class="day">12</span>
+                        <span class="month">Aug</span>
+                        <span class="year">2022</span>
+                    </div>
+                    <ul class="menu-content">
+                        <li>
+                            <a href="#" class="fa fa-bookmark-o"></a>
+                        </li>
+                        <li><a href="#" class="fa fa-heart-o"><span>18</span></a></li>
+                        <li><a href="#" class="fa fa-comment-o"><span>3</span></a></li>
+                    </ul>
+                </div>
+                <div class="data">
+                    <div class="content">
+                        <span class="author">Nnamdi Ezeh</span>
+                        <h1 class="title"><a href="#">Conference Of Digital Photography</a></h1>
+            
+                        <a href="#" class="button">Read more</a>
+                    </div>
+                    <div class="content">
+                        <span class="author">Nnamdi Ezeh</span>
+                        <h1 class="title"><a href="#">Discover our new website</a></h1>
+            
+                        <a href="#" class="button">Read more</a>
+                    </div>
+                    <div class="content">
+                        <span class="author">Ezeh Nnamdi</span>
+                        <h1 class="title"><a href="#">Bigup To Our Sponsors</a></h1>
+            
+                        <a href="#" class="button">Read more</a>
+                    </div>
+                    <div class="content">
+                        <span class="author">Ezeh Nnamdi</span>
+                        <h1 class="title"><a href="#">Conference Of Digital Photography</a></h1>
+            
+                        <a href="#" class="button">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
 
     <div class="progress-bar" />
     <button class="back-to-top hidden">
