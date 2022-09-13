@@ -57,6 +57,9 @@ textarea {
     overflow: hidden;
     transition: all .2s ease-in-out;
     background-color: #000;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: auto;
 }
 
 .alt-send-button {
@@ -70,6 +73,7 @@ textarea {
     margin-top: 10px;
     font: 700 14px 'Lato', sans-serif;
     letter-spacing: 2px;
+    color: #fff;
 }
 
 
@@ -342,3 +346,11 @@ img {
     z-index: 2;
 }
 
+
+#sentNot {
+    font-size: 45px;
+    color: #fff;
+    font-family: 'Oswald';
+    text-align: center;
+    display: none;
+}

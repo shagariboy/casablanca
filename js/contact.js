@@ -9,18 +9,15 @@ document.querySelector('#contact-form').addEventListener('submit', (e) => {
 
 
 
-function onLoad(params) {
+const notify = document.getElementById('sentNot');
+const btn = document.getElementById('sumbit');
 
-    var tempParams = {
-        from_name: document.getElementById("username").value,
-        message: document.getElementById("password").value,
-    };
-
-
-
-    emailjs.send("service_5rg4jzd", "template_d3n7vmw", tempParams)
-        .then(function (res) {
-            console.log("ok", res.status);
-        })
-}
-
+btn.addEventListener('click', function handleClick() {
+    if (notify.style.display === 'none') {
+        notify.style.display = 'block';
+    
+    }
+    else {
+        notify.style.display = 'none';
+    }
+  });
