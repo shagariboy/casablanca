@@ -3,6 +3,7 @@ body {
     padding: 0;
     background-color: gray;
     padding-bottom: 100px;
+    height: 1000px;
 }
 
 /* contact section */
@@ -55,6 +56,7 @@ textarea {
     width: 300px;
     overflow: hidden;
     transition: all .2s ease-in-out;
+    background-color: #000;
 }
 
 .alt-send-button {
@@ -302,3 +304,41 @@ img {
     display: block;
     z-index: 19999;
 }
+
+/* progress bar */
+.back-to-top {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    border-radius: 100%;
+    background: #141c38;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    opacity: 100%;
+    transition: opacity 0.5s;
+}
+
+.back-to-top:hover {
+    opacity: 60%;
+}
+
+.hidden {
+    opacity: 0%;
+}
+
+.back-to-top-icon {
+    width: 1rem;
+    height: 1rem;
+    color: #fff;
+}
+
+.progress-bar {
+    height: 0.5rem;
+    background: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
