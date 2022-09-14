@@ -436,7 +436,7 @@ img {
     display: block;
     z-index: 19999;
 }
-
+/* footer */
 .footer {
     margin-top: 300px;
     text-align: center;
@@ -451,7 +451,7 @@ img {
     color: #fff;
 }
 
-
+/* copyright */
 .copyright {
     margin-top: 20px;
     font: 400 14px 'Oswald', sans-serif;

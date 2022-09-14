@@ -21,6 +21,7 @@ h1 {
     font-size: 15px;
 }
 
+/* news bar */
 .row {
     max-width: 900px;
     margin: 50px auto 0;
@@ -117,61 +118,61 @@ h1 {
 }
 
 
-.example-2 .wrapper {
+.news .wrapper {
     background-image: linear-gradient(-225deg, #1A1A1A, #343434);
 }
 
 
-.example-2 .wrapper:hover .menu-content span {
+.news .wrapper:hover .menu-content span {
     transform: translate(-50%, -10px);
     opacity: 1;
 }
 
-.example-2 .header {
+.news .header {
     color: #fff;
     padding: 1em;
 }
 
-.example-2 .header::before,
-.example-2 .header::after {
+.news .header::before,
+.news .header::after {
     content: "";
     display: table;
 }
 
-.example-2 .header::after {
+.news .header::after {
     clear: both;
 }
 
-.example-2 .header .date {
+.news .header .date {
     float: left;
     font-size: 12px;
     font-family: 'Lato';
 }
 
-.example-2 .menu-content {
+.news .menu-content {
     float: right;
 }
 
-.example-2 .menu-content li {
+.news .menu-content li {
     margin: 0 5px;
     position: relative;
 }
 
-.example-2 .menu-content span {
+.news .menu-content span {
     transition: all 0.3s;
     opacity: 0;
 }
 
-.example-2 .data {
+.news .data {
     color: #fff;
     transform: translateY(calc(70px + 4em));
 }
 
-.example-2 .title a {
+.news .title a {
     color: #fff;
 }
 
-.example-2 .button {
+.news .button {
     display: block;
     width: 100px;
     margin: 2em auto 1em;
@@ -183,7 +184,7 @@ h1 {
     font-weight: 700;
 }
 
-.example-2 .button::after {
+.news .button::after {
     content: "→";
     opacity: 0;
     position: absolute;
@@ -193,13 +194,13 @@ h1 {
     transition: all 0.3s;
 }
 
-.example-2 .button:hover::after {
+.news .button:hover::after {
     transform: translate(5px, -50%);
     opacity: 1;
 }
 
 
-
+/* footer */
 .footer {
     margin-top: 300px;
     text-align: center;
@@ -215,7 +216,7 @@ h1 {
     color: #fff;
 }
 
-
+/* copyright */
 .copyright {
     margin-top: 20px;
     font: 400 14px 'Oswald', sans-serif;
