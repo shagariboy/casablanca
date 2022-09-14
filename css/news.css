@@ -1,3 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    background-color: gray;
+}
+
 .up-container {
     margin-top: 0px;
     display: flex;
@@ -9,7 +16,7 @@ a {
 }
 
 h1 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Lato";
     font-weight: 300;
     font-size: 15px;
 }
@@ -17,6 +24,7 @@ h1 {
 .row {
     max-width: 900px;
     margin: 50px auto 0;
+    height: 500px;
 }
 
 .card {
@@ -55,7 +63,7 @@ h1 {
     top: 0;
     font-size: 10px;
     font-weight: 700;
-    font-family: "Open Sans";
+    font-family: "Lato";
     transform: translate(-50%, 0);
 }
 
@@ -83,10 +91,12 @@ h1 {
     padding: 1em;
     position: relative;
     z-index: 1;
+    font-family: 'Lato';
 }
 
 .card .author {
     font-size: 12px;
+    font-family: 'Lato';
 }
 
 .card .title {
@@ -135,6 +145,7 @@ h1 {
 .example-2 .header .date {
     float: left;
     font-size: 12px;
+    font-family: 'Lato';
 }
 
 .example-2 .menu-content {
@@ -185,4 +196,31 @@ h1 {
 .example-2 .button:hover::after {
     transform: translate(5px, -50%);
     opacity: 1;
+}
+
+
+
+.footer {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.footer a {
+    color: #000;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
+
+.copyright {
+    margin-top: 20px;
+    font: 400 14px 'Oswald', sans-serif;
+    color: #000;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 20px;
 }

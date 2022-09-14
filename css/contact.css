@@ -354,3 +354,13 @@ img {
     text-align: center;
     display: none;
 }
+
+/* copyright */
+.copyright {
+    margin-top: 20px;
+    font: 400 14px 'Oswald', sans-serif;
+    color: #000;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 20px;
+}
