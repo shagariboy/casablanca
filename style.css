@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     height: 1000px;
-    background-color: gray;
+    background-color: #fff;
 }
 
 /* nav bar*/
@@ -255,7 +255,7 @@ nav,
 /*Heading */
 .heading {
     max-width: 300px;
-    max-height: 200px;
+    max-height: 250px;
     margin: 0 auto;
     text-align: center;
 }
