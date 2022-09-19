@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: gray;
+    background-color: #fff;
     padding-bottom: 100px;
     height: 1000px;
 }
@@ -17,10 +17,10 @@ body {
     text-align: center;
     margin: 0 auto;
     padding: 50px 0;
-    font: 300 60px 'Oswald', sans-serif;
-    color: #fff;
+    font: 500 20px 'Oswald', sans-serif;
+    color: #000;
     text-transform: uppercase;
-    letter-spacing: 6px;
+    letter-spacing: 3px;
 }
 
 
@@ -76,13 +76,13 @@ textarea {
 
 .list-item {
     line-height: 4;
-    color: #aaa;
+    color: #000;
 }
 
 .contact-text {
     font: 300 15px 'Lato', sans-serif;
-    letter-spacing: 1.9px;
-    color: #bbb;
+    letter-spacing: 1px;
+    color: #000;
 }
 
 .place {
@@ -101,7 +101,7 @@ textarea {
 }
 
 .contact-text a {
-    color: #bbb;
+    color: #000;
     text-decoration: none;
     transition-duration: 0.2s;
 }
@@ -264,7 +264,7 @@ hr {
 .logo_index {
     display: block;
     float: right;
-    right: 80%;
+    
     position: fixed;
     z-index: 19999;
     font: inherit;
@@ -344,7 +344,7 @@ img {
     text-decoration: none;
 }
 .footer a:hover {
-    color: #fff;
+    color: grey;
 }
 
 /* copyright */
