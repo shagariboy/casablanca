@@ -17,16 +17,14 @@ function displayUsers(data) {
     let tab =
         `<h1></h1>
        <h1></h1>
-       <img />
-
        `;
 
 
     for (let r of data.data) {
         tab += `
-        <h1>${r.first_name}&nbsp;${r.last_name}</h1>
-        <p>${r.email}</p>
         <img src="${r.avatar}" />
+        <h1>${r.first_name}&nbsp;${r.last_name}</h1>
+        <p>${r.email}</p>   
         `;
     }
 

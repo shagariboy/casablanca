@@ -4,7 +4,8 @@ body {
 
 #users {
     max-width: 520px;
-    height: 1300px;
+    max-height: 1500px;
+    height: 1350px;
     background: #FDFEFF;
     transition: background 0.6s ease;
     border-radius: 10px;
@@ -38,6 +39,7 @@ p {
     border: 6px solid #fff;
     border-radius: 150px;
     display: inline-block;
+    max-height: 100px;
 
 }
 
